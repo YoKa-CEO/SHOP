@@ -7,7 +7,7 @@ public class AlcoDrink extends Drink{
     private final AlcoCategory category = null;
     private final String alcoLower = "";
 
-    public AlcoDrink(String name, float price, AlcoCategory category, float amount, String alcoLower, int quantity){
+    public AlcoDrink(String name, double price, AlcoCategory category, double amount, String alcoLower, int quantity){
 
         super(name, price, amount, quantity);
         category = this.category;

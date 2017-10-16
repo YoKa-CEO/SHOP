@@ -10,7 +10,7 @@ public class NonAlcDrink extends Drink{
 
 
 
-    public NonAlcDrink(String name, float price,WaterCategory waterCategory, float amount,String composition, int quantity){
+    public NonAlcDrink(String name, double price,WaterCategory waterCategory, double amount, String composition, int quantity){
 
         super(name, price, amount, quantity);
         waterCategory = this.waterCategory;

@@ -5,13 +5,13 @@ package com.company;
  */
 public abstract class Drink {
     private final String name = "";
-    private float price = 0;
+    private double price = 0;
     //private final AlcoCategory category = null;
-    private float amount = 0;
+    private double amount = 0;
     //private final String alcoLower = "";
     private int quantity = 0;
 
-    public Drink(String name, float price, float amount, int quantity){
+    public Drink(String name, double price, double amount, int quantity){
 
         name = this.name;
         price = this.price;
@@ -25,11 +25,11 @@ public abstract class Drink {
         return name;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public float getAmount() {
+    public double getAmount() {
         return amount;
     }
 
@@ -37,11 +37,11 @@ public abstract class Drink {
         return quantity;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public void setAmount(float amount) {
+    public void setAmount(double amount) {
         this.amount = amount;
     }
 
